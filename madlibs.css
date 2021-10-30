@@ -1,0 +1,98 @@
+
+html{
+    height: 100%;
+}
+
+body{
+    height: 99vh;
+    background: rgb(131,234,241);
+    background: linear-gradient(135deg, rgba(131,234,241,1) 9%, rgba(99,164,255,1) 99%);
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    align-items: center;
+}
+.container{
+    margin: 0 auto;
+    min-width: 60vw;
+    max-width: 70vw;
+    max-height: 90vh;
+    padding: 30px 0;
+    background-color: rgba(255,255,255,.6 );
+    border-radius: 20px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+    overflow-y: auto;
+}
+
+main{
+    
+}
+
+h1, h2{
+    margin: 0;
+}
+
+#intro{
+    padding: 0 5%;
+}
+
+form section{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 0 5%;
+    margin-top: 20px;
+}
+
+
+.input-group {
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+}
+.input-group label{
+    padding-left: 10px;
+}
+
+.input-group input[type="text"] {
+    height: 30px;
+    width: 250px;
+    border: 1px solid #edede8;
+    border-radius: 20px;
+    box-shadow: rgba(99, 99, 99, 0.1) 0px 2px 2px 0px;
+    padding-left: 10px;
+    margin: 3px 0 10px;
+}
+
+.center{
+    text-align: center;
+}
+
+
+#madlibs-submit button {
+    height: 40px;
+    width: 250px;
+    background-color: #83eaf1;
+    border-radius: 20px;
+    border: none;
+    padding: 10px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-family: 'Poppins', sans-serif;
+}
+
+@media only screen and (max-width: 600px) {
+    h2{
+        font-size: 1em;
+        margin-top: 5px;
+    }
+    .container{
+        max-width: 100%;
+        max-height: 85vh;
+    }
+
+    .input-group {
+        margin: 5px;
+    }
+}
