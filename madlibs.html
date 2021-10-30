@@ -22,7 +22,8 @@
         </header>
 
         <main>
-            <form>
+            <!-- Main MadLibs Form Input Area -->
+            <form id="madlibs-form" name="madlibs-form" onsubmit="submitMadLibs(event)">
                 <section id="madlibs-inputs">
                     <div class="input-group">
                         <label for="number">🔢 number</label>
@@ -90,8 +91,11 @@
                         Generate
                     </button>
                 </section>
-            
             </form>
+
+            <section id="completed-story" class="hide">
+                <h3>Your completed story:</h3>
+            </section>
         </main>
     </div>
     
@@ -100,3 +104,4 @@
     <script src="./madlibs.js"></script>
 </body>
 </html>
+<!-- ❄️ -->
