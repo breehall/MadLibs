@@ -11,6 +11,7 @@ body{
     display: flex;
     align-items: center;
 }
+
 .container{
     margin: 0 auto;
     min-width: 60vw;
@@ -41,12 +42,12 @@ form section{
     margin-top: 20px;
 }
 
-
 .input-group {
     display: flex;
     flex-direction: column;
     margin: 10px;
 }
+
 .input-group label{
     padding-left: 10px;
 }
