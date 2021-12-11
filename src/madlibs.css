@@ -4,7 +4,8 @@ html{
 }
 
 body{
-    height: 99vh;
+    height: 100%;
+    overflow-y: hidden;
     background: rgb(131,234,241);
     background: linear-gradient(135deg, rgba(131,234,241,1) 9%, rgba(99,164,255,1) 99%);
     font-family: 'Poppins', sans-serif;
