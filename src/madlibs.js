@@ -1,10 +1,7 @@
 
 
 const madLibsForm = document.getElementById('madlibs-form');
-const loader = document.getElementById('loading-icon');
 const storySection = document.getElementById('completed-story');
-
-var userSubmission = {};
 
 const submitMadLibs = (event) => {
     //required to prevent the form from reloading on submit
@@ -12,9 +9,9 @@ const submitMadLibs = (event) => {
     madLibsForm.classList.add('hide');
 
     const form = new FormData(event.target);
-    userSubmission = Object.fromEntries(form);
+    const userSubmission = Object.fromEntries(form);
 
-    let story = `
+    const story = `
         <h3>Your completed story:</h3>
         <p>Winter is one of <span class="inserted-text">${userSubmission.number}</span> seasons of the year. 
         The other seasons are <span class="inserted-text">${userSubmission.adjective_1}</span>, <span class="inserted-text">${userSubmission.noun_1}</span>, and
