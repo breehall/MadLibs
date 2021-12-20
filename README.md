@@ -11,7 +11,7 @@ This is the repo for **Winter Mad Libs** app tutorial from my YouTube channel.
 ## Where to Go From Here
 ❄️ Check out a **live demo** of Winter Mad Libs [here](https://breehall.github.io/MadLibs/src/madlibs.html)
 
-📓 Find the written project insturctions here
+📓 Find the written project insturctions [here](https://github.com/breehall/MadLibs/wiki/Creating-Winter-Mad-Libs)
 
 📷 Watch the full tutorial on my YouTube channel
 
