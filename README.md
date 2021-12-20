@@ -5,7 +5,7 @@ This is the repo for **Winter Mad Libs** app tutorial from my YouTube channel.
 
 
 ## Getting Started
-1. Clone the repo, the navigate to `src/`.
+1. Clone the repo, the navigate to the `src/` directory.
 2. Open `madlibs.html` in the browser of your choice.
 
 ## Where to Go From Here
