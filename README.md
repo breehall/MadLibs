@@ -13,7 +13,7 @@ This is the repo for **Winter Mad Libs** app tutorial from my YouTube channel.
 
 📓 Find the written project insturctions [here](https://github.com/breehall/MadLibs/wiki/Creating-Winter-Mad-Libs)
 
-📷 Watch the full tutorial on my YouTube channel
+📷 Watch the full tutorial [on my YouTube channel](https://youtu.be/PE7Wr-xzTU8)
 
 
 ## What's Mad Libs? 
